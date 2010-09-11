@@ -54,7 +54,7 @@ describe "GET 'help'" do
     end
 
     it "should have the right title" do
-      get 'about'
+      get 'help'
       response.should have_selector("title",
                         :content => "Ruby on Rails Tutorial Sample App | Help")
     end
